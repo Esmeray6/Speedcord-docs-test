@@ -1,2 +1,5 @@
 aiohttp
 ujson
+sphinx
+sphinxcontrib_trio
+sphinxcontrib-websupport
