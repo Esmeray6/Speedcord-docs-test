@@ -13,6 +13,7 @@ setup(
 	long_description="yolo",
 	long_description_content_type="text/markdown",
 	install_requires=["aiohttp", "ujson"],
+	extra_requires={"docs": ["sphinx", "sphinxcontrib_trio", "sphinxcontrib-websupport"]},
 	description='A simple lightweight discord library',
 	python_requires='>=3.7',
 )
