@@ -1,13 +1,12 @@
 """
 Created by Epic at 9/4/20
 """
-from setuptools import setup, find_packages
+from setuptools import setup
 import re
 
 setup(
 	name='speds',
 	version="0.0.1",
-	packages=find_packages(),
 	url='https://github.com/tag-epic/speedcord',
 	license='MIT',
 	author='me',
