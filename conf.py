@@ -30,10 +30,10 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.viewcode',
     'sphinx.ext.napoleon',
-    'sphinxcontrib-trio'
+    'sphinxcontrib_trio'
 ]
 
-autodoc_member_order = 'bysource'
+# autodoc_member_order = 'bysource'
 
 # Add any paths that contain templates here, relative to this directory.
 # templates_path = ['_templates']
