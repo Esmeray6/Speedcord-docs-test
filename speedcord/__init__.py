@@ -7,7 +7,8 @@ from .client import Client
 from .exceptions import *
 from .values import version as __version__
 
-__all__ = (
-    "__version__", "Client", "HTTPException", "Forbidden", "NotFound", "Unauthorized", "LoginException", "InvalidToken",
-    "ConnectionsExceeded", "GatewayException", "GatewayClosed", "GatewayUnavailable"
-)
+__all__ = ("__version__", "Client", "HTTPException", "Forbidden", "NotFound",
+           "Unauthorized", "LoginException", "InvalidToken",
+           "ConnectionsExceeded", "GatewayException", "GatewayClosed",
+           "GatewayUnavailable"
+           )
