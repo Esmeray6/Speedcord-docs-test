@@ -113,10 +113,7 @@ class Client:
 
     async def connect(self):
         """
-        Connects to discord and spawns shards. `start()`_ has to be called
-        first!
-
-        .. start(): :meth:`start`
+        Connects to discord and spawns shards. :meth:`start()` has to be called first!
 
         Raises
         ------

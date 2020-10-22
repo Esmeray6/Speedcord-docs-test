@@ -8,7 +8,13 @@ class BaseContext:
     def __init__(self, client, data):
         """
         Basic context, use one of the subclasses for typing
-        :param client: the client
+
+        Parameters
+        ----------
+        client: Client
+            :class:`Client` to use.
+        data: Dict[str, Any]
+            Data sent by Discord gateway.
         """
         self.client = client
         self.data = data
