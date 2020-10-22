@@ -23,7 +23,9 @@ author = 'Epic'
 
 # -- General configuration ---------------------------------------------------
 
-html_experimental_html5_writer = True
+html_copy_source = False
+
+html_show_sourcelink = False
 
 master_doc = 'index'
 
@@ -80,4 +82,4 @@ html_static_path = ['_static']
 
 def setup(app):
     app.add_js_file("custom.js")
-    app.add_stylesheet("style.css")
+    app.add_css_file("style.css")
